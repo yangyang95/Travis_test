@@ -1,5 +1,5 @@
 all:
-	gcc -o hello main.c -lrt
+	gcc -std=gnu99 -o hello main.c -lrt
 
 clean:
 	rm -rf hello
